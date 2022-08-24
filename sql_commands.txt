@@ -1,0 +1,18 @@
+
+show databases;
+create databases NAME_OF_DATABASES;
+use NAME_OF_DATABASES;
+show tables;
+create table NAME_OF_TABLE(
+	WHAT_EVER_NUM_YOU_WANT int,
+	WHAT_EVER_WORD_YOU_WANT varchar,
+	ETC
+	);
+REDO STEP 3;
+describe NAME_OF_DATABASES;
+insert into NAME_OF_DATABASES values (THE_NUM_YOU_CHOSE, 
+"WHAT_EVER_WORD_YOU_CHOSE",ETC);
+REDO STEP 4
+REDO STEP 7
+select * from NAME_OF_TABLE;
+select * form NAME_OF_TABLE;
