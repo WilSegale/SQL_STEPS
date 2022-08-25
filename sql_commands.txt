@@ -1,18 +1,17 @@
 
-show databases;
-create database NAME_OF_DATABASES;
-use NAME_OF_DATABASES;
-show tables;
-create table NAME_OF_TABLE(
-	WHAT_EVER_ID_YOU_WANT int,
-	WHAT_EVER_WORD_YOU_WANT varchar,
-	ETC
+01. show databases;
+02. create database NAME_OF_DATABASES;
+03. use NAME_OF_DATABASES;
+04. show tables;
+05. create table NAME_OF_TABLE(
+		WHAT_EVER_ID_YOU_WANT int,
+		WHAT_EVER_WORD_YOU_WANT varchar(ADD A NUM HERE),
+		ETC
 	);
-REDO STEP 4;
-describe NAME_OF_DATABASES;
-insert into NAME_OF_DATABASES values (THE_NUM_YOU_CHOSE, 
-"WHAT_EVER_WORD_YOU_CHOSE",ETC);
-REDO STEP 4
-REDO STEP 7
-select * from NAME_OF_TABLE;
-select * form NAME_OF_TABLE;
+06. REDO STEP 4;
+07. describe NAME_OF_DATABASES;
+08. insert into NAME_OF_DATABASES values (THE_NUM_YOU_CHOSE,"WHAT_EVER_WORD_YOU_CHOSE",ETC);
+09. REDO STEP 4
+10. REDO STEP 7
+11. select * from NAME_OF_TABLE;
+12. select * form NAME_OF_TABLE;
