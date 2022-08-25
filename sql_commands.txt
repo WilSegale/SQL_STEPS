@@ -1,6 +1,6 @@
 
 show databases;
-create databases NAME_OF_DATABASES;
+create database NAME_OF_DATABASES;
 use NAME_OF_DATABASES;
 show tables;
 create table NAME_OF_TABLE(
