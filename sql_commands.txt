@@ -15,3 +15,6 @@
 10. REDO STEP 7
 11. select * from NAME_OF_TABLE;
 12. select * form NAME_OF_TABLE;
+__________________________________________________________________________________________________________
+Delate databases;
+1. DROP DATABASE DatabaseName
