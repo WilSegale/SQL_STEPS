@@ -14,14 +14,14 @@
 09. REDO STEP 4
 10. REDO STEP 7
 11. select * from NAME_OF_TABLE;
-12. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE"
-13. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE" or TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE"
+12. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE";
+13. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE" or TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE";
 ________________________________________________________________________________
 Delate databases;
-1. DROP DATABASE DatabaseName
+1. DROP DATABASE DatabaseName;
 ________________________________________________________________________________ 
 Delate part of database;
-1. Delete from TABLE_NAME where NAME_OF_Field = "NAME"
+1. Delete from TABLE_NAME where NAME_OF_Field = "NAME";
 ________________________________________________________________________________
 Update part of database;
 1. Update TABLE_NAME set where NAME_OF_Field = NULL where NAME_OF_Field = "NAME";
