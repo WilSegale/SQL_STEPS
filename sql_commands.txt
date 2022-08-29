@@ -16,12 +16,27 @@
 11. select * from NAME_OF_TABLE;
 12. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE";
 13. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE" or TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE";
+
 ________________________________________________________________________________
 Delate databases;
 1. DROP DATABASE DatabaseName;
+
 ________________________________________________________________________________ 
 Delate part of database;
 1. Delete from TABLE_NAME where NAME_OF_Field = "NAME";
+
 ________________________________________________________________________________
 Update part of database;
-1. Update TABLE_NAME set where NAME_OF_Field = NULL where NAME_OF_Field = "NAME";
+1. Update TABLE_NAME set NAME_OF_Field = NULL where NAME_OF_Field = "NAME";
+2. Update TABLE_NAME set NAME_OF_Field = TRUE where NAME_OF_Field = "NAME";
+3. Update TABLE_NAME set NAME_OF_Field = FALSE where NAME_OF_Field = "NAME";
+
+________________________________________________________________________________
+ODER BY
+1. SELECT * FROM TABLE_NAME ORDER BY table;
+2. SELECT * FROM TABLE_NAME ORDER BY table ASC;
+3. SELECT * FROM TABLE_NAME ORDER BY table DESC;
+
+________________________________________________________________________________
+ALTER TABLE
+1. ALTER TABLE NAME_OF_TABLE ADD WHAT_EVER_YOU_WANT BOOLEAN;

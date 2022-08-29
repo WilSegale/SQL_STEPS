@@ -1,2 +1,2 @@
 # SQL_STEPS
- sql 101
+sql 101
