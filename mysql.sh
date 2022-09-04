@@ -1,2 +1,2 @@
-/usr/local/mysql/bin/mysql -u root -p
-
+clear
+mysql -u root -p -A
