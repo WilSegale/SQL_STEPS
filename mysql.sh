@@ -1,5 +1,4 @@
 clear
-
 echo "Connecting to MySQL Database"
 sleep 3
 clear
