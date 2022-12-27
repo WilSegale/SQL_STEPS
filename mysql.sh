@@ -1,5 +1,5 @@
 clear
-echo "Connecting to MySQL Database"
+echo "Connecting to MySQL Database...."
 sleep 3
 clear
 echo "Connected to MySQL"
