@@ -14,6 +14,5 @@ for /f "usebackq delims=" %%p in (`%psCommand%`) do set "password=%%p"
 ::connects to MySQL server with the users "hostname","username" and "password"
 mysql.exe -h %host% -u %user% -p%password%
 
-
 ::clears the terminal
 cls 
