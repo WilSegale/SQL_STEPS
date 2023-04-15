@@ -13,6 +13,11 @@ for /f "usebackq delims=" %%p in (`%psCommand%`) do set "password=%%p"
 
 :: Clears CMD
 cls 
+if errorlevel 1 (
+    echo Failed to connect to MySQL server. Please check your password.
+    exit /b 1
+) else (
+    echo Connected successfully to MySQL server.
 
-:: Connects to MySQL server with the users "hostname","username" and "password"
-mysql.exe -h %host% -u %user% -p%password%
+    mysql.exe -h %host% -u %user% -p%password%
+)
