@@ -11,9 +11,11 @@ if command -v mysql &> /dev/null; then
      sleep 1
      clear
      echo "Connecting to MySQL Database..."
+     sleep 1
      clear
+     read -p "Please input your username for MySQL: " username
      echo "Connected to MySQL"
-     mysql -u root -p -A
+     mysql -u $username -p -A
 else
      echo "MySQL is not installed"
 fi
