@@ -5,7 +5,8 @@ if command -v mysql &> /dev/null; then
      echo "Connecting to MySQL Database"
      sleep 1
      clear
-     echo "Connecting to MySQL Database."sleep 1
+     echo "Connecting to MySQL Database."
+     sleep 1
      clear
      echo "Connecting to MySQL Database.."
      sleep 1
