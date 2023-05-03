@@ -7,3 +7,8 @@ MySQL 101
 
 # Download mysql for Windows
 1. https://dev.mysql.com/downloads/installer/
+
+# Commands
+# the commands are located in the 
+```mysql.txt ```
+file
