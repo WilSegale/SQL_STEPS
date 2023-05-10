@@ -10,5 +10,7 @@ MySQL 101
 
 # Commands
 # the commands are located in the 
-```mysql.txt ```
+```
+MySQL.txt
+```
 file
