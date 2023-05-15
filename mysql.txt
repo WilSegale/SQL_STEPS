@@ -16,7 +16,8 @@
 12. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE";
 13. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE" or TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE";
 
-__________________________________________________________________________Delete databases;
+__________________________________________________________________________
+Delete databases;
 1. DROP DATABASE DatabaseName;
 
 __________________________________________________________________________
