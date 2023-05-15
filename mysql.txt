@@ -16,8 +16,7 @@
 12. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE";
 13. select * from NAME_OF_TABLE where TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE" or TABLE_NAME = "WHAT_EVER_WORD_YOU_CHOSE";
 
-__________________________________________________________________________
-Delete databases;
+__________________________________________________________________________Delete databases;
 1. DROP DATABASE DatabaseName;
 
 __________________________________________________________________________
@@ -50,13 +49,23 @@ AUTO INCREMENT
 
 __________________________________________________________________________
 USE IF STATEMENTS
-1. IF condition THEN
+1.  IF condition THEN
    statements;
 END IF;
 
 2.IF salary < 5000 THEN
     UPDATE DATABASE SET TABLE = TABLE * 1.1 WHERE id = NAME_OF_TABLE;
 END IF;
+
+__________________________________________________________________________
+GET DATE
+1. SELECT CURDATE();
+
+2. SELECT NOW();
+
+3. INSERT INTO TABLE (date_column) VALUES (CURDATE());
+
+4. INSERT INTO TABLE (datetime_column) VALUES (NOW());
 
 __________________________________________________________________________
 !RESET PASSWORD!
