@@ -1,7 +1,6 @@
 #!/bin/bash
 if command -v mysql &> /dev/null; then
      echo "MySQL is installed"
-     clear
      sleep 1
      echo "Connecting to MySQL Database"
      sleep 1
