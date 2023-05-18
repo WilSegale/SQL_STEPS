@@ -5,12 +5,15 @@ if command -v mysql &> /dev/null; then
      echo "Connecting to MySQL Database"
      sleep 1
      clear
+     echo "MySQL is installed"
      echo "Connecting to MySQL Database."
      sleep 1
      clear
+     echo "MySQL is installed"
      echo "Connecting to MySQL Database.."
      sleep 1
      clear
+     echo "MySQL is installed"
      echo "Connecting to MySQL Database..."
      sleep 1
      clear
