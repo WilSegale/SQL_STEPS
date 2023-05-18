@@ -1,10 +1,10 @@
 @echo off
 
 :: Tells the user to in put there hostname like (localhost) etc
-set /p host="Enter MySQL host example(localhost): "
+set /p host="Enter MySQL hostname example(localhost): "
 
 :: Tells the user to input there username
-set /p user="Enter MySQL user example(root): "
+set /p user="Enter MySQL username example(root): "
 
 :: hides the users input for the password for MySQL
 set "psCommand = powershell -Command "$pword = read-host 'Enter password' -AsSecureString ; ^
