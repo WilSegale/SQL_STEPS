@@ -2,6 +2,7 @@ from sys import platform
 from colorama import *
 import os
 import subprocess
+
 GREEN = Fore.GREEN
 
 # do something that may take a long time
