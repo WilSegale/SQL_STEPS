@@ -1,16 +1,17 @@
 import os
 import subprocess
-from colorama import Fore
+from colorama import *
 
 # Define color constants
 GREEN = Fore.GREEN
 RED = Fore.RED
+RESET = Style.RESET_ALL
 
 # Check if MySQL is installed on the computer
 try:
     # Use subprocess to check the MySQL version
     subprocess.check_output("mysql --version", shell=True)
-    print(f"{GREEN}MySQL is installed on this computer.")
+    print(f"{GREEN}MySQL is installed on this computer.{RESET}")
 
     # Perform platform-specific actions
     if os.name == "nt":  # Windows
@@ -21,4 +22,4 @@ try:
         os.system("rm -rf *.bat")
         
 except subprocess.CalledProcessError:
-    print(f"{RED}MySQL is not installed on this computer.")
+    print(f"{RED}MySQL is not installed on this computer.{RESET}")
