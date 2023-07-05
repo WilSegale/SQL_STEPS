@@ -1,3 +1,4 @@
+Basic Commands for MySQL;
 01. show databases;
 02. create database NAME_OF_DATABASES;
 03. use NAME_OF_DATABASES;
