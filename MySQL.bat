@@ -19,5 +19,5 @@ if errorlevel 1 (
 ) else (
     echo Connected successfully to MySQL server.
 
-    mysql.exe -h %host% -u %user% -p%password%
+    mysql.exe -h %host% -u %user% -p %password%
 )
