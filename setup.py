@@ -1,11 +1,10 @@
 import os
 import subprocess
-from colorama import *
 
 # Define color constants
-GREEN = Fore.GREEN
-RED = Fore.RED
-RESET = Style.RESET_ALL
+RED = "\033[31m"
+GREEN = "\033[32m"
+RESET = "\033[0m"
 
 # Check if MySQL is installed on the computer
 try:
