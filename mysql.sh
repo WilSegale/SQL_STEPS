@@ -20,7 +20,7 @@ if command -v mysql &> /dev/null; then
      clear
      read -p "Please input your username for MySQL: " username
      echo "Connected to MySQL"
-     mysql -u $username -p -A
+     mysql -u "${username}" -p -A
 else
      echo "MySQL is not installed"
 fi
